@@ -99,34 +99,6 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/slick.js"></script>
-<script>
-  $(document).ready(function(){
-    $(".menu-icon").click(function(){
-      $(this).toggleClass("close-nav");
-      $(".primary-navigation .menu").toggleClass("active");
-      $(".bg-menu").toggleClass("show");
-    });
-    $('.customer-logos').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: true,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 4
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 3
-            }
-        }]
-    });
-  });
-</script>
+
 </body>
 </html>
