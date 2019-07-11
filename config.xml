@@ -123,7 +123,9 @@
   <plugin name="cordova-universal-clipboard" source="npm"/>
   <plugin name="phonegap-plugin-barcodescanner" source="npm"/>
   <plugin name="cordova-plugin-x-toast" />
-  <plugin name = "cordova-plugin-x-socialsharing" source="npm" version="5.4.0" />
+  <feature name="SocialSharing">
+  <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+</feature>
   <splash platform="android" qualifier="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
 <splash platform="android" qualifier="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
 <splash platform="android" qualifier="port-hdpi" src="res/screen/android/screen-hdpi-portrait.png" />
