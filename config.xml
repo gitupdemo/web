@@ -109,31 +109,4 @@
   <author href="https://build.phonegap.com" email="samgtm@gmail.com">
      name of the author
   </author>
-  <preference name="orientation" value="portrait" />
-  <preference name="fullscreen" value="true" />
-  <preference name="KeepRunning" value="false"/>
-  <preference name="SplashScreen" value="screen"/>
-  <preference name="android-build-tool" value="gradle" />  
- 
-  <plugin name="cordova-plugin-whitelist" source="npm" />
-  <plugin name="cordova-plugin-x-socialsharing" source="npm" />
-  <plugin name="cordova-plugin-inappbrowser" source="npm"/>
-  <plugin spec="https://github.com/floatinghotpot/cordova-admob-pro" source="git" />
-  <plugin name="cordova-plugin-network-information" source="npm" />
-  <plugin name="cordova-universal-clipboard" source="npm"/>
-  <plugin name="phonegap-plugin-barcodescanner" source="npm"/>
-  <plugin name="cordova-plugin-x-toast" />
-  <feature name="SocialSharing">
-  <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
-</feature>
-  <splash platform="android" qualifier="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
-<splash platform="android" qualifier="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
-<splash platform="android" qualifier="port-hdpi" src="res/screen/android/screen-hdpi-portrait.png" />
-<splash platform="android" qualifier="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
-
-<splash platform="android" qualifier="land-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
-<splash platform="android" qualifier="land-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
-<splash platform="android" qualifier="land-hdpi" src="res/screen/android/screen-hdpi-portrait.png" />
-<splash platform="android" qualifier="land-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
-
-</widget>
+  </widget>
