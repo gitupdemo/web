@@ -9,7 +9,7 @@
 
   <name>Web</name>
     <platform name="android">
-    <icon src="/images/app-logo.png" width="40" height="38" />
+    <icon src="/images/app-logo.png" width="48" height="48" />
     </platform>
   <description>
       This is my first PhoneGap Build Applcation
