@@ -9,8 +9,11 @@
 
   <name>Web</name>
 <platform name="ios" />
+
 <platform name="android" />
+
 <platform name="winphone" />
+
  <description>
       This is my first PhoneGap Build Applcation
   </description>
