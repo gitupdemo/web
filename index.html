@@ -9,7 +9,6 @@
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
 <link href="css/languages.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -79,26 +78,64 @@
 <!-- Start Option -->
 <div class="common-section bg-white">
     <div class="container">
-        <h2 class="section-heading text-center">Best Mortgage rates</h2>
+        <h2 class="section-heading text-center">Web Mobile Application</h2>
         <ul class="mortgage-rate text-center">
           <li>
-            <div class="inner">
-                <!--<div class="percentage">1.25<sup>%</sup></div>-->
-            </div>
+           <div class="inner"><img src="images/partner1.png"></div>
+            
           </li>
           <li class="second">
-            <div class="inner"></div>
+            <div class="inner"><img src="images/partner5.png"></div>
           </li>
           <li class="third">
-            <div class="inner"></div>
+            <div class="inner"><img src="images/partner6.png"></div>
           </li>
         </ul>
     </div>  
   </div>
   <!-- end Option -->
+<!-- end Option -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/slick.js"></script>
+<script>
+  $(document).ready(function(){
+    /* Show RightSide Menu*/
+    $(".menu-icon").click(function(){
+      $(this).toggleClass("close-nav");
+      $(".primary-navigation .menu").toggleClass("active");
+      $(".bg-menu").toggleClass("show");
+    });
+    /* Show RightSide Menu*/
+    /* Show RightSide Menu*/
+    $(".top-option li").hover(function(){
+      $(".navbar-default").toggleClass("open");
+    });
+    /* Show RightSide Menu*/
+    /* Start Prtner Logo */
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: true,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+    /* End Prtner Logo */
+  });
+</script>
 
 </body>
 </html>

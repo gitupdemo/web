@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.phonegap.example"
     versionCode = "10"
-    version     = "1.1" >
+    version     = "1.0.0" >
 
 <!-- versionCode is optional and Android only -->
 
@@ -55,7 +55,7 @@
         <splash src="res/screen/ios/Default-736h.png" width="1242" height="2208"/>
    
         <!-- Legacy landscape -->
-       
+
         <splash src="res/screen/ios/Default-Landscape~ipad.png" width="1024" height="768"/>
         <splash src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
        
